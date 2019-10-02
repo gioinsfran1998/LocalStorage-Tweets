@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aplicacion de Tareas</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/skeleton.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- Contenido -->
+    <div id="contenido">
+        <div class="container">
+
+            <h1>Local Storage</h1>
+            <div class="row">
+                <div class="twelve columns">
+                    <label class="tweet" for="tweet">Tweet:</label>
+                    <form action="#" id="formulario" class="formulario">
+                        <label for="tweet"></label>
+                        <textarea class="textArea u-full-width" id="tweet"></textarea>
+                        <input type="submit" class="u-full-width button-primary" value="Agregar">
+                    </form>
+                </div>
+            </div>
+            <div class="misTweets twelve columns">
+                <h2>Mis Tweets</h2>
+                <div id="lista-tweets"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- End Contenido -->
+
+    <!-- JavaScript -->
+    <script src="./assets/js/app.js"></script>
+    <!-- End JavaScript -->
+
+</body>
+
+</html>

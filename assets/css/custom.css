@@ -1,0 +1,46 @@
+body {
+    font-family: 'Acme';
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Sofia';
+}
+
+#contenido {
+    margin-top: 40px;
+}
+
+.borrar-tweet,
+.borrar-tweet:hover {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+}
+
+.row {
+    background: gray;
+    padding: 5px;
+    border: 2px;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.textArea {
+    font-size: 18px;
+}
+
+.button-primary {
+    max-width: 20%;
+    margin-top: 2%;
+}
+
+.tweet {
+    font-family: 'Sofia';
+    font-size: 22px;
+}
